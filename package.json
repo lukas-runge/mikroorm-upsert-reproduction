@@ -1,30 +1,31 @@
 {
-  "name": "mikroorm-upsert-reproduction",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:lukas-runge/mikroorm-upsert-reproduction.git",
-  "author": "Lukas Runge <login@lukasrunge.de>",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "build": "tsc",
-    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/server.ts",
-    "test": "vitest"
-  },
-  "dependencies": {
-    "@mikro-orm/core": "^6.3.13",
-    "@mikro-orm/reflection": "^6.3.13",
-    "@mikro-orm/sqlite": "^6.3.13",
-    "fastify": "^5.0.0",
-    "uuid": "^10.0.0"
-  },
-  "devDependencies": {
-    "@mikro-orm/cli": "^6.3.13",
-    "@types/node": "^22.7.7",
-    "@types/uuid": "^10.0.0",
-    "ts-node": "^10.9.2",
-    "tsx": "^4.19.1",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.3"
-  }
+	"name": "mikroorm-upsert-reproduction",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:lukas-runge/mikroorm-upsert-reproduction.git",
+	"author": "Lukas Runge <login@lukasrunge.de>",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/server.ts",
+		"test": "vitest",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@mikro-orm/core": "^6.3.13",
+		"@mikro-orm/reflection": "^6.3.13",
+		"@mikro-orm/sqlite": "^6.3.13",
+		"fastify": "^5.0.0",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"@mikro-orm/cli": "^6.3.13",
+		"@types/node": "^22.7.7",
+		"@types/uuid": "^10.0.0",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.19.1",
+		"typescript": "^5.6.3",
+		"vitest": "^2.1.3"
+	}
 }

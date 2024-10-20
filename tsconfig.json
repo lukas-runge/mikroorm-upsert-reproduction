@@ -1,20 +1,18 @@
 {
-    "compilerOptions": {
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "target": "ES2022",
-        "strict": true,
-        "outDir": "dist",
-        "declaration": true,
-        "experimentalDecorators": true,
-        "allowImportingTsExtensions": true,
-        "noEmit": true
-    },
-    "include": [
-        "./src/**/*.ts"
-    ],
-    "ts-node": {
-        "esm": true,
-        "transpileOnly": true
-    }
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ES2022",
+		"strict": true,
+		"outDir": "dist",
+		"declaration": true,
+		"experimentalDecorators": true,
+		"allowImportingTsExtensions": true,
+		"noEmit": true
+	},
+	"include": ["./src/**/*.ts"],
+	"ts-node": {
+		"esm": true,
+		"transpileOnly": true
+	}
 }
